@@ -54,3 +54,21 @@
   font-weight: 500;
   margin-top: 3.2rem;
 }
+
+.md td{
+  border: 1px solid #aaa;
+  padding: 1.2rem;
+  font-size: 1.2rem;
+  font-weight: 700;
+
+}
+.md th{
+  border: 1px solid #aaa;
+  padding: 1.2rem;
+  font-size: 1.2rem;
+}
+
+.md table{
+  margin-top: 0.8rem;
+  background-color: white;
+}
