@@ -1,0 +1,56 @@
+.md h1{
+  color: #C90626;
+  font-family: 'IBM Plex Mono', 'Helvetica Neue', Arial, sans-serif;
+  font-weight: 500;
+  padding-bottom: 0.8rem;
+  margin-bottom: 1.6rem;
+  font-size: 3rem;
+}
+
+.md p{
+  color: #46526A;
+  font-family: 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif;
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+}
+.md li{
+  color: #46526A;
+  font-family: 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif;
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+}
+.md em{
+  color: #46526A;
+  font-family: 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif;
+}
+
+.md ul{
+  padding-left: 2rem;
+}
+
+.md a{
+  color: #06C4F8;
+  font-weight: 500;
+}
+
+.md a:hover{
+  color: #06C4F8;
+  font-weight: 500;
+}
+.subHead{
+  color: #46526A;
+  font-family: 'IBM Plex Mono', 'Helvetica Neue', Arial, sans-serif;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 2.4rem;
+  margin-top: 5.6rem;
+  margin-bottom: 0.8rem; 
+}
+
+.md h2{
+  color: #46526A;
+  font-family: 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif;
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin-top: 3.2rem;
+}

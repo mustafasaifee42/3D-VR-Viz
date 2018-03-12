@@ -1,0 +1,35 @@
+
+.card {
+  background-color: white;
+  padding: 1.6rem;
+  width: 100%;
+  box-shadow: 0 0 1rem 0 rgba(0,0,0,.05) !important;
+  border: 0px solid rgba(0, 0, 0, 0.125) !important; 
+  border-radius: 4px;
+  color: #46526A;
+  font-size: 1.4rem;
+  cursor: pointer;
+  font-family: 'IBM Plex Mono', 'Helvetica Neue', Arial, sans-serif;
+  font-weight: 500;
+  margin-bottom: 3.2rem;
+
+}
+
+.suggestioncard {
+  border: 1px solid #06C4F8 !important;
+  text-align: center;
+  color: #06C4F8;
+}
+
+.card-image{
+    width:100%;
+}
+
+.card:hover {
+  box-shadow: 0 0 1rem 0 rgba(0,0,0,.2) !important;
+  color: #06C4F8 !important;
+}
+
+a:hover{
+  text-decoration: none !important;
+}

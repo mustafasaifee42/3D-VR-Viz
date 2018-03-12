@@ -1,0 +1,54 @@
+
+.App-logo {
+  height: 3rem;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+body{
+  background-color: #F5F7F9 !important;
+  padding-bottom: 6.4rem;
+}
+.App-header {
+  background-color: #060038;
+  height: 65px;
+  padding: 0 3.2rem 0 3.2rem;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.grid-fluid{
+  padding: 0 3.2rem 0 3.2rem;
+}
+
+.show-grid{
+  padding: 0 1.6rem 0 1.6rem !important;
+  margin-top: 3.2rem;
+}
+
+.column{
+  padding: 0 1.6rem 0 1.6rem !important;
+}
+
+.Menu-Item{
+  margin-top: 0.6rem;
+  padding: 1.6rem;
+  color: white;
+  font-size: 1.6rem;
+  cursor: pointer;
+  font-family: 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif;
+  text-align: right;
+  position: relative;
+  clear: left;
+  float: right;
+}
+.Menu-Item:hover{
+  color: #06C4F8 !important;
+}

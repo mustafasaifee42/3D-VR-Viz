@@ -1,0 +1,67 @@
+[
+  {
+    "vizName": "3D Bar Chart",
+    "image": "/img/cardImg/01.png",
+    "link": 1
+  },
+  {
+    "vizName": "3D Surface Plot",
+    "image": "/img/cardImg/02.png",
+    "link": 2
+  },
+  {
+    "vizName": "3D Contour",
+    "image": "/img/cardImg/03.png",
+    "link": 3
+  },
+  {
+    "vizName": "3D Point Cloud",
+    "image": "/img/cardImg/04.png",
+    "link": 4
+  },
+  {
+    "vizName": "3D Scatter Plot",
+    "image": "/img/cardImg/05.png",
+    "link": 5
+  },
+  {
+    "vizName": "3D Bubble Chart",
+    "image": "/img/cardImg/06.png",
+    "link": 6
+  },
+  {
+    "vizName": "3D Connected Scatterplot",
+    "image": "/img/cardImg/07.png",
+    "link": 7
+  },
+  {
+    "vizName": "3D Graph Drawing",
+    "image": "/img/cardImg/08.png",
+    "link": 8
+  },
+  {
+    "vizName": "3D Bar Map Chart",
+    "image": "/img/cardImg/09.png",
+    "link": 9
+  },
+  {
+    "vizName": "3D Flow Map",
+    "image": "/img/cardImg/10.png",
+    "link": 10
+  },
+  {
+    "vizName": "Waterfall Plot",
+    "image": "/img/cardImg/11.png",
+    "link": 11
+  },
+  {
+    "vizName": "Exploded-View Drawing",
+    "image": "/img/cardImg/12.png",
+    "link": 12
+  },
+  {
+    "vizName": "Cutaway Drawing",
+    "image": "/img/cardImg/13.png",
+    "link": 13
+  }
+]
