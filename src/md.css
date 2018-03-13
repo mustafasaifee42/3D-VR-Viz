@@ -72,3 +72,19 @@
   margin-top: 0.8rem;
   background-color: white;
 }
+
+.ExampleTitle h3{
+  color: #46526A !important;
+  font-family: 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif !important;
+  font-size: 1.6rem !important;
+  font-weight: 500 !important;
+  margin-top: 3.2rem !important;
+}
+
+figcaption{
+  font-style: italic !important;
+  line-height: 2rem !important;
+  font-size: 1.4rem !important;
+  margin-top: 1.6rem !important;
+  max-width: 72rem !important;
+}

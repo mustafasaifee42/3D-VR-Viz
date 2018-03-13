@@ -5,6 +5,11 @@
     "link": 1
   },
   {
+    "vizName": "3D Stacked Bar Chart",
+    "image": "/img/cardImg/14.png",
+    "link": 14
+  },
+  {
     "vizName": "3D Surface Plot",
     "image": "/img/cardImg/02.png",
     "link": 2
