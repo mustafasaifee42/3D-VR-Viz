@@ -5,6 +5,7 @@ import { Col } from 'react-bootstrap';
 import ReactMarkdown from 'react-markdown';
 import './md.css';
 import './about.css';
+import Loader from 'react-loader-spinner';
 
 
 class About extends Component {
@@ -45,7 +46,14 @@ class About extends Component {
       }
     else {
       return (
-        <div> Loading </div>
+        <div className="loader">
+          <Loader 
+            type="TailSpin"
+            color="#999"
+            height="100"	
+            width="100"
+          /> 
+        </div>
       )
     }
   }

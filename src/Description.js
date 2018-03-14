@@ -9,6 +9,7 @@ import About from './About.js';
 import Imgstest from './imageView.js';
 import cardData from './cardData.json';
 import ReactMarkdown from 'react-markdown';
+import Loader from 'react-loader-spinner';
 import './md.css';
 
 
@@ -66,7 +67,6 @@ class Desciption extends Component {
   componentDidUpdate() {
     }
   render() {
-    console.log(this.state);
     let stl = {
           color: '#46526A',
           fontFamily: 'IBM Plex Sans',
@@ -82,10 +82,14 @@ class Desciption extends Component {
         let git, demo
         if(this.state.gitLink){
           git = <a href = {this.state.gitLink} className="button" target="_blank">GitHub Repo</a>;
-          demo = <a href = {this.state.Demo} className="button" target="_blank">VR Demo</a>;
         }
         else {
           git = <div className="disabled">GitHub Repo</div>;
+        }
+        if(this.state.Demo){
+          demo = <a href = {this.state.Demo} className="button" target="_blank">VR Demo</a>;
+        }
+        else {
           demo = <div className="disabled">VR Demo</div>;
         }
         return (
@@ -121,7 +125,14 @@ class Desciption extends Component {
       }
     else {
       return (
-        <div> Loading </div>
+        <div className="loader">
+          <Loader 
+            type="TailSpin"
+            color="#999"
+            height="100"	
+            width="100"
+          /> 
+        </div>
       )
     }
   }

@@ -168,3 +168,9 @@ figcaption{
   margin-bottom: 0.8rem;
   margin-top: 0.8rem;
 }
+
+.loader{
+  width: 10rem;
+  margin: auto;
+  margin-top: 9.6rem;
+}
