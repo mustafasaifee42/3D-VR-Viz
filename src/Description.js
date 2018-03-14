@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Grid } from 'react-bootstrap';
 import { Row } from 'react-bootstrap';
 import { Col } from 'react-bootstrap';
+import { Button } from 'react-bootstrap';
 import Card from './Card.js';
 import Tag from './Tags.js';
 import About from './About.js';
@@ -18,12 +19,14 @@ class Desciption extends Component {
         body: null,
         function:null,
         coverImg:null,
+        gitLink:null,
+        demo:null,
       }
     }
   
   componentWillMount() {
-    console.log(this.props);
-
+    console.log(this.props.match.path.substr(1));
+    console.log(cardData[13]);
     const readmePath = require(`./description${this.props.match.path}.md`);
 
     fetch(readmePath)
@@ -55,13 +58,15 @@ class Desciption extends Component {
           body: Desciption,
           coverImg: img,
           photo:exampleImgs,
-
+          gitLink:cardData[parseInt(this.props.match.path.substr(1))-1].gitRepo,
+          Demo:cardData[parseInt(this.props.match.path.substr(1))-1].demo,
         })
       })
   }
   componentDidUpdate() {
     }
   render() {
+    console.log(this.state);
     let stl = {
           color: '#46526A',
           fontFamily: 'IBM Plex Sans',
@@ -69,13 +74,20 @@ class Desciption extends Component {
           fontWeight: '500',
         }
     if(this.state.body){
-      console.log(this.state.function)
       const tags = this.state.function
          .map((d,i) => 
                     <Tag
                      txt = {d}/>
         )
-        console.log(this)
+        let git, demo
+        if(this.state.gitLink){
+          git = <a href = {this.state.gitLink} className="button" target="_blank">GitHub Repo</a>;
+          demo = <a href = {this.state.Demo} className="button" target="_blank">VR Demo</a>;
+        }
+        else {
+          git = <div className="disabled">GitHub Repo</div>;
+          demo = <div className="disabled">VR Demo</div>;
+        }
         return (
           <Grid>
             <Row className="show-grid">
@@ -91,6 +103,10 @@ class Desciption extends Component {
               <Col xs={12} md={2}>
                 <div className='subHead'> Function </div>
                 {tags}
+                <div className='subHead-second'> Git Repo </div>
+                {git}
+                <div className='subHead-second'> Demo </div>
+                {demo}
               </Col>
             </Row>
             <Row className="show-grid">

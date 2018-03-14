@@ -2,71 +2,95 @@
   {
     "vizName": "3D Bar Chart",
     "image": "/img/cardImg/01.png",
-    "link": 1
+    "link": 1,
+    "gitRepo":"https://www.google.com",
+    "demo":"https://www.google.com"
   },
   {
     "vizName": "3D Stacked Bar Chart",
-    "image": "/img/cardImg/14.png",
-    "link": 14
+    "image": "/img/cardImg/02.png",
+    "link": 2,
+    "gitRepo":"https://www.google.com",
+    "demo":"https://www.google.com"
   },
   {
     "vizName": "3D Surface Plot",
-    "image": "/img/cardImg/02.png",
-    "link": 2
+    "image": "/img/cardImg/03.png",
+    "link": 3,
+    "gitRepo":"https://www.google.com",
+    "demo":"https://www.google.com"
   },
   {
     "vizName": "3D Contour",
-    "image": "/img/cardImg/03.png",
-    "link": 3
+    "image": "/img/cardImg/04.png",
+    "link": 4,
+    "gitRepo":"https://www.google.com",
+    "demo":"https://www.google.com"
   },
   {
     "vizName": "3D Point Cloud",
-    "image": "/img/cardImg/04.png",
-    "link": 4
+    "image": "/img/cardImg/05.png",
+    "link": 5,
+    "gitRepo":"https://www.google.com",
+    "demo":"https://www.google.com"
   },
   {
     "vizName": "3D Scatter Plot",
-    "image": "/img/cardImg/05.png",
-    "link": 5
+    "image": "/img/cardImg/06.png",
+    "link": 6,
+    "gitRepo":"https://www.google.com",
+    "demo":"https://www.google.com"
   },
   {
     "vizName": "3D Bubble Chart",
-    "image": "/img/cardImg/06.png",
-    "link": 6
+    "image": "/img/cardImg/07.png",
+    "link": 7,
+    "gitRepo":"https://www.google.com",
+    "demo":"https://www.google.com"
   },
   {
     "vizName": "3D Connected Scatterplot",
-    "image": "/img/cardImg/07.png",
-    "link": 7
+    "image": "/img/cardImg/08.png",
+    "link": 8,
+    "gitRepo":"https://www.google.com",
+    "demo":"https://www.google.com"
   },
   {
     "vizName": "3D Graph Drawing",
-    "image": "/img/cardImg/08.png",
-    "link": 8
+    "image": "/img/cardImg/09.png",
+    "link": 9,
+    "gitRepo":"https://www.google.com",
+    "demo":"https://www.google.com"
   },
   {
-    "vizName": "3D Bar Map Chart",
-    "image": "/img/cardImg/09.png",
-    "link": 9
+    "vizName": "3D Bar Chart on Map",
+    "image": "/img/cardImg/10.png",
+    "link": 10,
+    "gitRepo":"https://www.google.com",
+    "demo":"https://www.google.com"
   },
   {
     "vizName": "3D Flow Map",
-    "image": "/img/cardImg/10.png",
-    "link": 10
+    "image": "/img/cardImg/11.png",
+    "link": 11,
+    "gitRepo":"https://www.google.com",
+    "demo":"https://www.google.com"
   },
   {
     "vizName": "Waterfall Plot",
-    "image": "/img/cardImg/11.png",
-    "link": 11
+    "image": "/img/cardImg/12.png",
+    "link": 12,
+    "gitRepo":"https://www.google.com",
+    "demo":"https://www.google.com"
   },
   {
     "vizName": "Exploded-View Drawing",
-    "image": "/img/cardImg/12.png",
-    "link": 12
+    "image": "/img/cardImg/13.png",
+    "link": 13
   },
   {
     "vizName": "Cutaway Drawing",
-    "image": "/img/cardImg/13.png",
-    "link": 13
+    "image": "/img/cardImg/14.png",
+    "link": 14
   }
 ]

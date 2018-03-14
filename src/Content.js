@@ -24,7 +24,9 @@ class Content extends Component {
                     <Card
                      title = {d.vizName}
                      img = {d.image}
-                     link = {d.link}/>
+                     link = {d.link}
+                     gitRepo = {d.gitRepo}
+                     demo = {d.demo}/>
                 </Col>
         )
         console.log(cards)

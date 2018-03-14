@@ -46,6 +46,15 @@
   margin-top: 5.6rem;
   margin-bottom: 0.8rem; 
 }
+.subHead-second{
+  color: #46526A;
+  font-family: 'IBM Plex Mono', 'Helvetica Neue', Arial, sans-serif;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 2.4rem;
+  margin-top: 2.4rem;
+  margin-bottom: 0.8rem; 
+}
 
 .md h2{
   color: #46526A;
@@ -87,4 +96,75 @@ figcaption{
   font-size: 1.4rem !important;
   margin-top: 1.6rem !important;
   max-width: 72rem !important;
+}
+
+.react-photo-gallery--gallery img {
+  border: 1.6rem solid white;
+}
+
+.button{
+  background-color: white;
+  padding: 0.8rem 1.6rem;
+  box-shadow: 0 0 1rem 0 rgba(0,0,0,.05) !important;
+  border: 0px solid rgba(240,240,240,1) !important; 
+  border-radius: 0.4rem;
+  color: #06C4F8;
+  font-size: 1.2rem;
+  font-family: 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif;
+  font-weight: 400;
+  display:inline-block;
+  margin-right: 0.8rem;
+  margin-bottom: 0.8rem;
+}
+
+.button:hover{
+  box-shadow: 0 0 1rem 0 rgba(0,0,0,.2) !important;
+  color: #06C4F8;
+
+}
+
+.disabled{
+  opacity: 0.7 !important;
+  background-color: white;
+  padding: 0.8rem 1.6rem;
+  border: 0px solid rgba(240,240,240,1) !important; 
+  border-radius: 0.4rem;
+  color: #999;
+  font-size: 1.2rem;
+  font-family: 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif;
+  font-weight: 400;
+  display:inline-block;
+  margin-right: 0.8rem;
+  margin-bottom: 0.8rem;
+}
+
+.md h3 a{
+  background-color: white;
+  padding: 0.8rem 1.6rem;
+  box-shadow: 0 0 1rem 0 rgba(0,0,0,.05) !important;
+  border: 0px solid rgba(240,240,240,1) !important; 
+  border-radius: 0.4rem;
+  color: #06C4F8;
+  font-size: 1.2rem;
+  font-family: 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif;
+  font-weight: 400;
+  display:inline-block;
+  margin-right: 0.8rem;
+  margin-bottom: 0.8rem;
+  margin-top: 0.8rem;
+}
+.md h3 a:hover{
+  background-color: white;
+  padding: 0.8rem 1.6rem;
+  box-shadow: 0 0 1rem 0 rgba(0,0,0,.2) !important;
+  border: 0px solid rgba(240,240,240,1) !important; 
+  border-radius: 0.4rem;
+  color: #06C4F8;
+  font-size: 1.2rem;
+  font-family: 'IBM Plex Sans', 'Helvetica Neue', Arial, sans-serif;
+  font-weight: 400;
+  display:inline-block;
+  margin-right: 0.8rem;
+  margin-bottom: 0.8rem;
+  margin-top: 0.8rem;
 }
