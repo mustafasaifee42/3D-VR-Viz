@@ -13,7 +13,7 @@ import { Link } from 'react-router-dom';
 class App extends Component {
   render() {
     let arr = []
-    for (let i = 1; i < 15; i++){
+    for (let i = 1; i <= cardData.length; i++){
       arr.push(i)
     }
     const descriptionRoute = arr
