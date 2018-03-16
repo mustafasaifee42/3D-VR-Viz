@@ -1,7 +1,4 @@
 import React, { Component } from 'react';
-import { Grid } from 'react-bootstrap';
-import { Row } from 'react-bootstrap';
-import { Col } from 'react-bootstrap';
 import ReactMarkdown from 'react-markdown';
 import './md.css';
 import './about.css';
@@ -9,13 +6,13 @@ import Loader from 'react-loader-spinner';
 
 
 class About extends Component {
-   constructor(props){
-      super(props)
-      this.state = {
-        about: null,
-      }
+  constructor(props) {
+    super(props)
+    this.state = {
+      about: null,
     }
-  
+  }
+
   componentWillMount() {
 
     const readmePath = require(`./about.md`);
@@ -30,29 +27,27 @@ class About extends Component {
         })
       })
   }
-  componentDidUpdate() {
-    }
   render() {
-    if(this.state.about){
+    if (this.state.about) {
       console.log(this.state.function)
       return (
-          <div className='about'>
-              <ReactMarkdown
-                className="md"
-                source={this.state.about}
-              />
-          </div>
-        )
-      }
+        <div className='about'>
+          <ReactMarkdown
+            className="md"
+            source={this.state.about}
+          />
+        </div>
+      )
+    }
     else {
       return (
         <div className="loader">
-          <Loader 
+          <Loader
             type="TailSpin"
             color="#999"
-            height="100"	
+            height="100"
             width="100"
-          /> 
+          />
         </div>
       )
     }

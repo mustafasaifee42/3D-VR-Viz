@@ -1,0 +1,45 @@
+.subHeadTitle{
+    font-size: 1.4rem;
+    clear: right;
+    float: left;
+    margin-top:0.4rem;
+    margin-right: 0.8rem;
+}
+
+.subHeadMenu{
+    padding: 1.6rem;
+    padding-bottom: 0.8rem;
+    background-color: white;
+    box-shadow: 0 0 1rem 0 rgba(0,0,0,.1) !important;
+    display: flex;
+    justify-content: center;
+}
+
+.toggleSubHead{
+    clear: right;
+}
+
+.toggleSubHead label{
+    font-size: 1.2rem !important;
+    -webkit-appearance: none !important;
+    margin: 0 0.8rem 0.8rem 0.8rem;
+    border-radius: 2rem !important;
+    border: 1px solid #06C4F8;
+    color: #06C4F8;
+    padding: 0.4rem 1.6rem;
+    background-color: #fff;
+    font-weight: 600;
+
+}
+.btn-group{
+    display: inline !important;
+}
+.active{
+    background-color: #06C4F8 !important;
+    color: white !important;
+
+}
+
+.toggleSubHead input{
+    display: none;
+}

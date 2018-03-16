@@ -1,5 +1,4 @@
 import React from 'react';
-import { render } from 'react-dom';
 import Gallery from 'react-photo-gallery';
 import Lightbox from 'react-images';
 
@@ -37,7 +36,7 @@ class Imgstest extends React.Component {
   render() {
     return (
       <div>
-        <Gallery photos={this.props.photos} onClick={this.openLightbox} columns={4} margin={8}/>
+        <Gallery photos={this.props.photos} onClick={this.openLightbox} columns={4} margin={8} />
         <Lightbox images={this.props.photos}
           onClose={this.closeLightbox}
           onClickPrev={this.gotoPrevious}

@@ -1,48 +1,43 @@
 import React, { Component } from 'react';
-import { Grid } from 'react-bootstrap';
-import { Row } from 'react-bootstrap';
-import { Col } from 'react-bootstrap';
-import Card from './Card.js';
-import cardData from './cardData.json';
-
+import CardGrid from './CardGrid.js';
+import './style.css';
+import Bootstrap from 'bootstrap/dist/css/bootstrap.css';
+import { ButtonToolbar } from 'react-bootstrap';
+import { ToggleButton } from 'react-bootstrap';
+import { ToggleButtonGroup } from 'react-bootstrap';
 
 class Content extends Component {
-   constructor(props){
-      super(props)
-      this.state = {
-      }
+  constructor(props) {
+    super(props)
+    this.state = {
+      filter: 'All'
     }
-  
-  componentWillMount() {
   }
-  componentDidUpdate() {
-    }
   render() {
-      const cards = cardData
-         .map((d,i) => 
-                <Col xs={12} sm={6} md={4} lg={3} className="column">
-                    <Card
-                     title = {d.vizName}
-                     img = {d.image}
-                     link = {d.link}
-                     gitRepo = {d.gitRepo}
-                     demo = {d.demo}/>
-                </Col>
-        )
-        console.log(cards)
-    return (
-        <Grid >
-          <Row className="show-grid">
-              {cards}
-            <Col xs={12} sm={6} md={4} lg={3} className="column">
-              <a href = 'mailto:saifee.mustafa@gmail.com' className='card suggestioncard'>
-                  <img src='/img/cardImg/suggest.png' className="card-image" alt="img" />
-                  <span> Suggest a 3D viz </span> 
-              </a>
-            </Col>
-          </Row>
-        </Grid>
+    let tags = ["Comparison", "Conceptual Drawing", "Distribution", "Geospatial Data", "Movement", "Part of Whole", "Relationships", "Trends"]
+    const toggle = tags
+      .map((d, i) =>
+        <ToggleButton value={d} key={i}>{d}</ToggleButton>
       )
+    return (
+      <div>
+        <div className="subHeadMenu">
+          <div className="subHeadTitle">Filter by Functions</div>
+          <ButtonToolbar bsClass="toggleSubHead">
+            <ToggleButtonGroup type="radio" name="options" defaultValue={"All"} onChange={(eventType) => {
+              this.setState({
+                filter: eventType,
+              })
+            }
+            }>
+              <ToggleButton value={"All"}>All</ToggleButton>
+              {toggle}
+            </ToggleButtonGroup>
+          </ButtonToolbar>
+        </div>
+        <CardGrid Filter={this.state.filter} />
+      </div>
+    )
   }
 }
 export default Content
