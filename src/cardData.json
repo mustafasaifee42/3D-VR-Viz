@@ -111,6 +111,24 @@
     ]
   },
   {
+    "vizName": "3D Contour Map",
+    "image": "/img/cardImg/18.png",
+    "link": 18,
+    "function": [
+      "Geospatial Data"
+    ]
+  },
+  {
+    "vizName": "Prism Map",
+    "image": "/img/cardImg/17.png",
+    "link": 17,
+    "function": [
+      "Comparison",
+      "Magnitude",
+      "Geospatial Data"
+    ]
+  },
+  {
     "vizName": "Waterfall Plot",
     "image": "/img/cardImg/12.png",
     "link": 12,
