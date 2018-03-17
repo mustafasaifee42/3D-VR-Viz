@@ -3,93 +3,155 @@
     "vizName": "3D Bar Chart",
     "image": "/img/cardImg/01.png",
     "link": 1,
-    "function":["Comparison","Magnitude","Distribution","Pattern"]
+    "function": [
+      "Comparison",
+      "Magnitude",
+      "Distribution",
+      "Pattern"
+    ]
   },
   {
     "vizName": "3D Stacked Bar Chart",
     "image": "/img/cardImg/02.png",
     "link": 2,
-    "function":["Comparison","Magnitude","Part of Whole"]
+    "function": [
+      "Comparison",
+      "Magnitude",
+      "Part of Whole"
+    ]
   },
   {
     "vizName": "3D Surface Plot",
     "image": "/img/cardImg/03.png",
     "link": 3,
-    "function":["Correlation","Distribution"],
-    "gitRepo":"https://github.com/mustafasaifee42/VR-CurveGraph"
+    "function": [
+      "Correlation",
+      "Distribution"
+    ],
+    "gitRepo": "https://github.com/mustafasaifee42/VR-CurveGraph"
   },
   {
     "vizName": "3D Contour",
     "image": "/img/cardImg/04.png",
     "link": 4,
-    "function":["Trends","Movement"]
+    "function": [
+      "Trends",
+      "Movement"
+    ]
   },
   {
     "vizName": "3D Point Cloud",
     "image": "/img/cardImg/05.png",
     "link": 5,
-    "function":["Distribution","Spacial Coordinate"]
+    "function": [
+      "Distribution",
+      "Spacial Coordinate"
+    ]
   },
   {
     "vizName": "3D Scatter Plot",
     "image": "/img/cardImg/06.png",
     "link": 6,
-    "function":["Correlation","Distribution","Identifying Outliers","Clustering"],
-    "gitRepo":"https://github.com/mustafasaifee42/VR-ScatterPlot"
+    "function": [
+      "Correlation",
+      "Distribution",
+      "Identifying Outliers",
+      "Clustering"
+    ],
+    "gitRepo": "https://github.com/mustafasaifee42/VR-ScatterPlot"
   },
   {
     "vizName": "3D Bubble Chart",
     "image": "/img/cardImg/07.png",
     "link": 7,
-    "function":["Correlation","Distribution","Identifying Outliers"]
+    "function": [
+      "Correlation",
+      "Distribution",
+      "Identifying Outliers"
+    ]
   },
   {
     "vizName": "3D Connected Scatterplot",
     "image": "/img/cardImg/08.png",
     "link": 8,
-    "function":["Patterns","Trend Over Time","Trends"]
+    "function": [
+      "Patterns",
+      "Trend Over Time",
+      "Trends"
+    ]
   },
   {
     "vizName": "3D Graph Drawing",
     "image": "/img/cardImg/09.png",
     "link": 9,
-    "function":["Relationships","Clustering"],
-    "gitRepo":"https://github.com/mustafasaifee42/VR-ForceDirectedGraph"
+    "function": [
+      "Relationships",
+      "Clustering"
+    ],
+    "gitRepo": "https://github.com/mustafasaifee42/VR-ForceDirectedGraph"
   },
   {
     "vizName": "3D Bar Chart on Map",
     "image": "/img/cardImg/10.png",
     "link": 10,
-    "function":["Comparison","Geospatial Data","Magnitude"]
+    "function": [
+      "Comparison",
+      "Geospatial Data",
+      "Magnitude"
+    ]
   },
   {
     "vizName": "3D Flow Map",
     "image": "/img/cardImg/11.png",
     "link": 11,
-    "function":["Relationship","Geospatial Data","Movement"]
+    "function": [
+      "Relationship",
+      "Geospatial Data",
+      "Movement"
+    ]
   },
   {
     "vizName": "Waterfall Plot",
     "image": "/img/cardImg/12.png",
     "link": 12,
-    "function":["Patterns","Comparison","Trends"]
+    "function": [
+      "Patterns",
+      "Comparison",
+      "Trends"
+    ]
   },
   {
     "vizName": "Exploded-View Drawing",
     "image": "/img/cardImg/13.png",
     "link": 13,
-    "function":["Conceptual Drawing"]
+    "function": [
+      "Conceptual Drawing"
+    ]
   },
   {
     "vizName": "Cutaway Drawing",
     "image": "/img/cardImg/14.png",
     "link": 14,
-    "function":["Conceptual Drawing"]
+    "function": [
+      "Conceptual Drawing"
+    ]
   },
   {
     "vizName": "Trajectory Plot",
     "image": "/img/cardImg/15.png",
     "link": 15,
-    "function":["Movement","Clustering"]
+    "function": [
+      "Movement",
+      "Clustering"
+    ]
+  },
+  {
+    "vizName": "3D Pictorial Unit Chart",
+    "image": "/img/cardImg/16.png",
+    "link": 16,
+    "function": [
+      "Comparison",
+      "Distribution"
+    ]
   }
 ]
