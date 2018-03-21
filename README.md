@@ -1,5 +1,5 @@
 # 3D-VR-Viz
-Catalouge of 3D data visualization
+Catalogue of 3D data visualization
 
 This catalouges different kind 3D data visualizations that can be used in AR or VR. You can visit the catalouge [here](https://vr-3d-viz.herokuapp.com/). If you have any feedback or if I have missed any 3D visualization (which I am sure I have), do let me know 
 
